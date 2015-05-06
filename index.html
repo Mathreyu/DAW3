@@ -108,7 +108,6 @@
     });
   }
 </script>
-
 <nav class="navbar navbar-default navbar-fixed-top">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
@@ -122,20 +121,21 @@
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
+
 		<div class="collapse navbar-collapse navbar-ex1-collapse">
 			<ul class="nav navbar-nav">
 				<li><a href="#about">Conócenos</a></li>
 				<li><a href="#">Contacto</a></li>
-				<li><a href="questions.html">Cuestionario</a></li>
+                <li><a href="questions.html">Preguntas<a>
+                </li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><br><fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+				<li><fb:login-button scope="public_profile,email" onlogin="checkLoginState();" onclick="questions()">
                 </fb:login-button></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Herramientas usadas<b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
-						<li><a href="http://www.codeigniter.com/">CodeIgniter</a></li>
 						<li><a href="https://developers.facebook.com/">Facebook API</a></li>
 					</ul>
 				</li>
@@ -169,6 +169,7 @@
                 <div class="carousel-caption">
                     <h1>Pobreza en México</h1>
                     <p>De 2010 a 2012 disminuyó el porcentaje de pobres en México (de 46.1% a 45.5%), pero el número absoluto de ellos aumentó (de 52.8 a 53.3 millones de personas).</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
                 </div>
             </div>
         </div>
@@ -178,6 +179,7 @@
                 <div class="carousel-caption">
                     <h1>Un poco de realidad.</h1>
                     <p>Una de cada 10 personas en México está en situación de pobreza extrema. Es decir, 11.5 millones en México tienen tres o más carencias sociales y no tienen los ingresos necesarios para un nivel mínimo de bienestar.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
                 </div>
             </div>
         </div>
@@ -187,6 +189,7 @@
                 <div class="carousel-caption">
                     <h1>Más datos</h1>
                     <p>Sólo 23 millones de personas son considerados ‘no vulnerables’, lo cual representa menos del 20% de los mexicanos.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
                 </div>
             </div>
         </div>
@@ -194,7 +197,6 @@
     <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
     <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 </div>
-
 <!--about -->
  <section class="success" id="about">
         <div class="container">
@@ -287,6 +289,5 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="beauty/js/freelancer.js"></script>
-    <script src="beauty/js/typeahead.min.js"></script>
 </body>
 </html>
