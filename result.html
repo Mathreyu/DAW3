@@ -1,7 +1,7 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
- 	<meta charset="utf-8">
+  <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -110,47 +110,45 @@
 </script>
 
 <nav class="navbar navbar-default navbar-fixed-top">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">Inicio</a>
-		</div>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Inicio</a>
+    </div>
 
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse navbar-ex1-collapse">
-			<ul class="nav navbar-nav">
-				<li><a href="#about">Conócenos</a></li>
-				<li><a href="#">Contacto</a></li>
-				<li><a href="questions.html">Cuestionario</a></li>
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<li><br><fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><br><fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
                 </fb:login-button></li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Herramientas usadas<b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
-						<li><a href="http://www.codeigniter.com/">CodeIgniter</a></li>
-						<li><a href="https://developers.facebook.com/">Facebook API</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</nav>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Herramientas usadas<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+            <li><a href="https://developers.facebook.com/">Facebook API</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
 <header>
 <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="Images/question.png" alt="">
+                    <img class="img-responsive" src="Images/people.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Costo de la Vida</span>
+                        <span class="name">Tu resultado</span>
                         <hr class="star-light">
-                        <span class="skills">¿Cuántas personas podrías mantener con tu estilo de vida?</span>
+                        <div class="skills">
+                        <p>Podrias mantener a<?php include 'controller/result.php' ?> personas con tu estilo de vida<p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -194,42 +192,6 @@
     <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
     <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 </div>
-
-<!--about -->
- <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-	            <div class="col-lg-4">
-	                    <p>Estudiante de Ingeniería en Sistemas Digitales y Robótica, gusto por los videojuegos y siempre gustoso de una buena historia.</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <img class="img-responsive" src="Images/creator1.png" height="150" width="150" alt="">
-                </div>
-             </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <p>Estudiante de sistemas computacionales; actualemnte cursando la materia de Desarrollo de Aplicaciones Web en el septimo semestre de la carrera; amante de los videojuegos y de la cocina.</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <img class="img-responsive" src="Images/creator2.png" height="150" width="150" alt="">
-                </div>
-            </div>
-             <div class="row">
-                <div class="col-lg-4">
-                    <p>Yair oli</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                  
-                </div>
-            </div>
-        </div>
-    </section>
 
 
  <footer class="text-center">
