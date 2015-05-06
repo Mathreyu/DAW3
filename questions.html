@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+ 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Cuestionario</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="beauty/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="beauty/css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="beauty/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">Inicio</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="#">Conócenos</a></li>
+				<li><a href="#">Contacto</a></li>
+				<li><a href="#">Cuestionario</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Login</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Herramientas usadas<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+						<li><a href="http://www.codeigniter.com/">CodeIgniter</a></li>
+						<li><a href="https://developers.facebook.com/">Facebook API</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="name">¡Responde!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="success text-center" id="question1">
+    	<h1>Pregunta 1: </h1>
+    	<h2>¿Dónde vives?</h2>
+    	<form>
+			<input type="text" size="30" onkeyup="showUser(this.value)">
+		</form>
+    </section>
+    <section class="success text-center" id="question2">
+    	<h1>Pregunta 2: </h1>
+    	<h2>¿Cuántas personas viven en tu casa?</h2>
+		    <select name="personas" color = "black">
+		      <optgroup label="gente">
+		        <option value="one">1 a 3</option>
+		        <option value="two">3 a 5</option>
+		        <option value="three">5 o más</option>
+		      </optgroup>
+		    </select><br />
+    </section>
+    <section class="success text-center" id="question3">
+    	<h1>Pregunta 3: </h1>
+    	<h2>¿Cuántas veces comes al día?</h2>
+    </section>
+    <section class="success text-center" id="question4">
+    	<h1>Pregunta 4: </h1>
+    	<h2>¿Cuántos baños hay en tu casa?</h2>
+    </section>
+    <section class="success text-center" id="question4">
+    	<h1>Pregunta 5: </h1>
+    	<h2>Lllena el siguiente formulario con la cantidad de ropa que tienes</h2>
+    </section>
+
+	<footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row"> 
+                <div class="footer-col col-md-4">
+                       
+                </div>                  
+                    <div class="footer-col col-md-4">
+                        <h3>Dónde encontrarnos</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Mathreyu 2015, Omegama 2015, Yair 2015
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+       <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	 <!-- jQuery -->
+    <script src="beauty/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="beauty/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="beauty/js/classie.js"></script>
+    <script src="beauty/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="beauty/js/jqBootstrapValidation.js"></script>
+    <script src="beauty/js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="beauty/js/freelancer.js"></script>
+</body>
+</html>
